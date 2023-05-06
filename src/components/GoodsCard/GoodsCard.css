@@ -1,0 +1,76 @@
+.card {
+    width: 310px;
+    height: 367px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    padding: 15px 20px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card__wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.card__name {
+    color: #1C1C27;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+}
+
+.card__rate {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    color: #838383;
+}
+
+.card__rate::before {
+    content: '';
+    display: inline-block;
+    vertical-align: sub;
+    width: 23px;
+    height: 23px;
+    background: url(../../images/star.svg);
+    margin-right: 10px;
+}
+
+.card__price {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    color: #FFA542;
+}
+
+.card__price_old {
+    position: absolute;
+    text-decoration: line-through;
+    color: #FFCE7F;
+    font-size: 13px;
+    line-height: 16px;
+    bottom: 28px;
+    right: 15px;
+}
+
+.card__btn {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    color: #000000;
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+    transition: color .2s linear;
+}
+
+.card__btn:hover {
+    color: #FFA542;
+}

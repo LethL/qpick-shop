@@ -1,0 +1,19 @@
+.main {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 150px 0;
+}
+
+.goods__name {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #838383;
+}
+
+.goods__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+}
