@@ -4,3 +4,7 @@
     color: #101010;
     margin: 0;
 }
+
+.logo__link {
+    text-decoration: none;
+}

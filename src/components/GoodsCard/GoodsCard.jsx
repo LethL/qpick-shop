@@ -1,7 +1,7 @@
 import React from "react";
 import "./GoodsCard.css";
 
-export default function GoodsCard({ props }) {
+export default function GoodsCard({ props, addToCart }) {
   return (
     <div className="card">
       <img
@@ -19,7 +19,7 @@ export default function GoodsCard({ props }) {
           <p className="card__price card__price_old">
             {props.oldPrice ? props.oldPrice + " ₽" : ""}
           </p>
-          <button className="card__btn">Купить</button>
+          <button className="card__btn" onClick={() => addToCart(props)}>Купить</button>
         </div>
       </div>
     </div>

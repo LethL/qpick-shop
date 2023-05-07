@@ -1,7 +1,7 @@
 .main {
     max-width: 1110px;
+    padding: 0 28px;
     margin: 0 auto;
-    padding: 0 150px 0;
 }
 
 .goods__name {
@@ -12,8 +12,9 @@
 }
 
 .goods__content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    row-gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 350px));
+    grid-column-gap: 18px;
+    grid-row-gap: 20px;
+    justify-content: center;
 }

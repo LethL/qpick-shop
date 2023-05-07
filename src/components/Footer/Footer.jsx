@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Footer.css";
 import Logo from "../Logo/Logo";
 import globe from "../../images/globe.svg";
@@ -10,7 +11,9 @@ import wa from "../../images/wa.svg";
 export default function Footer() {
   return (
     <footer className="footer">
-      <Logo />
+      <Link className="logo__link" to="/">
+        <Logo />
+      </Link>
       <nav>
         <ul className="footer__nav">
           <li>

@@ -1,6 +1,6 @@
 .header {
-    max-width: 1110px;
-    padding: 0 150px;
+    max-width: 1054px;
+    padding: 0 28px;
     min-height: 60px;
     margin: 0 auto;
     display: flex;
@@ -12,6 +12,7 @@
     width: 120px;
     display: flex;
     justify-content: space-around;
+    position: relative;
 }
 
 .header__content-item {
@@ -21,4 +22,18 @@
 
 .header__content-item:hover {
     opacity: .7;
+}
+
+.header__content-counter {
+    position: absolute;
+    right: 2px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #FFA542;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
 }
