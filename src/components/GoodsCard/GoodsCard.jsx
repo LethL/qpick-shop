@@ -19,7 +19,9 @@ export default function GoodsCard({ props, addToCart }) {
           <p className="card__price card__price_old">
             {props.oldPrice ? props.oldPrice + " ₽" : ""}
           </p>
-          <button className="card__btn" onClick={() => addToCart(props)}>Купить</button>
+          <button className="card__btn" onClick={() => addToCart(props)}>
+            Купить
+          </button>
         </div>
       </div>
     </div>

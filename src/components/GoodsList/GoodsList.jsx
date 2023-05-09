@@ -24,7 +24,13 @@ export default function GoodsList({ addToCart }) {
         <p className="goods__name">Беспроводные наушники</p>
         <div className="goods__content">
           {wirelessHeadphones.map((element) => {
-            return <GoodsCard key={element.id} props={element} />;
+            return (
+              <GoodsCard
+                key={element.id}
+                props={element}
+                addToCart={addToCart}
+              />
+            );
           })}
         </div>
       </section>

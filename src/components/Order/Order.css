@@ -8,6 +8,7 @@
     display: flex;
     align-items: center;
     position: relative;
+    margin-bottom: 20px;
 }
 
 .order__img {
@@ -22,6 +23,7 @@
     justify-content: space-between;
     margin-top: 20px;
     margin-left: 20px;
+    align-items: center;
 }
 
 .order__counter-btn {
