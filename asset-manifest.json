@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/qpick-shop/static/css/main.c44bc168.css",
-    "main.js": "/qpick-shop/static/js/main.91519f05.js",
+    "main.js": "/qpick-shop/static/js/main.2bfdc9cd.js",
     "static/media/vk.svg": "/qpick-shop/static/media/vk.200332db80feb34aac09a5f6d7d91e63.svg",
     "static/media/wa.svg": "/qpick-shop/static/media/wa.8dc15f232a985aef74ed03315e7a3148.svg",
     "static/media/cart.svg": "/qpick-shop/static/media/cart.0755738f949b36eb371956870cd1c963.svg",
@@ -12,10 +12,10 @@
     "index.html": "/qpick-shop/index.html",
     "static/media/star.svg": "/qpick-shop/static/media/star.bc044334a82d09622eb6.svg",
     "main.c44bc168.css.map": "/qpick-shop/static/css/main.c44bc168.css.map",
-    "main.91519f05.js.map": "/qpick-shop/static/js/main.91519f05.js.map"
+    "main.2bfdc9cd.js.map": "/qpick-shop/static/js/main.2bfdc9cd.js.map"
   },
   "entrypoints": [
     "static/css/main.c44bc168.css",
-    "static/js/main.91519f05.js"
+    "static/js/main.2bfdc9cd.js"
   ]
 }
