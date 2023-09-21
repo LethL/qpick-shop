@@ -84,7 +84,7 @@ function App() {
     <div className="app">
       <Header total={total} />
       <Routes>
-        <Route path="/" element={<GoodsList addToCart={addToCart} />} />
+        <Route path="/" exact element={<GoodsList addToCart={addToCart} />} />
         <Route
           path="/cart"
           element={

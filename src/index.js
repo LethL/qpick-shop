@@ -8,7 +8,7 @@ import "normalize.css";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/qpick-shop">
       <App />
     </BrowserRouter>
   </React.StrictMode>
