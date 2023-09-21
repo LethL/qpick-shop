@@ -1,6 +1,6 @@
 # React online-shop app
 
-Деплой: https://github.com/LethL/NeoBank
+Деплой: https://lethl.github.io/qpick-shop/
 
 Онлайн магазин с возможностью добавить товар в корзину, изменить/удалить количество товаров в корзине.
 
